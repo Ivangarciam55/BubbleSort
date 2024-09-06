@@ -22,7 +22,9 @@ void bSort() {
     int tam;
     cout << "Ingrese el tamano del arreglo" <<endl;
     cin >> tam;
-    int num[tam];
+    //int num[tam];
+
+    vector<int> num(tam);
 
     random_device rd;
     mt19937 gen(rd());
